@@ -1,18 +1,18 @@
 {
 	"url": "http://www.vim.org",
 	"license": "http://vimdoc.sourceforge.net/htmldoc/uganda.html#license",
-	"version": "7.4",
+	"version": "8.0-069",
 	"url": [
-		"http://ftp.vim.org/pub/vim/pc/gvim74.zip",
-		"http://ftp.vim.org/pub/vim/pc/vim74rt.zip"
+		"http://ftp.vim.org/pub/vim/pc/gvim80-069.zip",
+		"http://ftp.vim.org/pub/vim/pc/vim80-069rt.zip"
 	],
 	"hash": [
-		"3b356a7caf274e43386a0472b5098e340dc4a733fb7e1df44ffdb3a327792cde",
-		"md5:819c04edd9ec4df8e30cb9d6bb9ef0ca"
+		"65B7148BF95ECB1DE9602FA24DEFAD09DF3B128C24AC38688A7FEF6D5E8170F8",
+		"482B3AEF45C3731B205D7C5FE59E0CCA7542AAE9B447F46B4792B89F2F79E01E"
 	],
-	"extract_dir": [ "vim\\vim74", "vim\\vim74" ],
+	"extract_dir": [ "vim\\vim80", "vim\\vim80" ],
 	"bin": "gvim.exe",
-	"post_install": 
+	"post_install":
 	"
 		if(!(test-path ~\\.vimrc)) {
 		cp \"$dir\\vimrc_example.vim\" ~\\.vimrc

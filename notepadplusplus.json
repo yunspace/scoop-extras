@@ -1,8 +1,20 @@
 {
 	"homepage": "http://notepad-plus-plus.org",
-	"version": "6.6.9",
+	"version": "7.2",
 	"license": "GPL",
-	"hash": "F6E39295CE4EE256939DA327DAD4651248A0C7BECBC3AE8558C179D2F1FCD760",
-	"url": "http://download.tuxfamily.org/notepadplus/archive/6.6.9/npp.6.6.9.bin.zip",
-	"bin": "notepad++.exe"
+	"architecture": {
+		"64Bit": {
+			"url": "https://notepad-plus-plus.org/repository/7.x/7.2/npp.7.2.bin.x64.7z",
+			"hash": "sha1:a28253834129bdbd4e061974dbb5502fca9ea81c"
+		},
+		"32Bit": {
+			"url": "https://notepad-plus-plus.org/repository/7.x/7.2/npp.7.2.bin.7z",
+			"hash": "sha1:03a36326266ccf22659b8d40baa1e2bf7a1a5558"
+		}
+	},
+	"checkver": "Current Version:.*?<span>(.*?)</span>",
+	"bin": "notepad++.exe",
+	"shortcuts": [
+		[ "notepad++.exe", "Notepad++" ]
+	]
 }
