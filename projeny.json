@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/modesttree/Projeny",
+    "version": "0.3.5",
+    "url": [
+            "https://github.com/modesttree/Projeny/releases/download/v0.3.5/ProjenyInstaller-v0.3.5.exe",
+            "https://raw.githubusercontent.com/yunspace/scoop-extras/master/scripts/projeny.ps1"
+    ],
+    "hash": [
+            "3ACBC0FE0EDF1010E7F8493F435539057B7217F09EF6C2F161BFB200A616C86C",
+            "ac0c6658e6289e72f015109b1ad3fa2edf6ffe09c0890d8c3b4cd3ea1384af5a"
+    ],
+    "installer": {
+        "file": "projeny.ps1",
+        "args" : [ "ProjenyInstaller-v0.3.5" ]
+    },
+    "bin": [
+        "app\\bin\\Prj.exe",
+        "app\\bin\\PrjEditor.bat",
+        "app\\bin\\PrjOpenInVisualStudio.bat",
+        "app\\bin\\PrjUpdateReleaseManifest.bat"
+    ]
+}
